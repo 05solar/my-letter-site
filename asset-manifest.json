@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/my-letter-site/static/css/main.2b88572c.css",
+    "main.js": "/my-letter-site/static/js/main.99807f82.js",
+    "static/js/453.60f6679f.chunk.js": "/my-letter-site/static/js/453.60f6679f.chunk.js",
+    "index.html": "/my-letter-site/index.html",
+    "main.2b88572c.css.map": "/my-letter-site/static/css/main.2b88572c.css.map",
+    "main.99807f82.js.map": "/my-letter-site/static/js/main.99807f82.js.map",
+    "453.60f6679f.chunk.js.map": "/my-letter-site/static/js/453.60f6679f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b88572c.css",
+    "static/js/main.99807f82.js"
+  ]
+}
