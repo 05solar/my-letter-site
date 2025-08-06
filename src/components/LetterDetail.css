@@ -1,0 +1,75 @@
+.detail-container {
+  padding: 16px;
+  font-family: 'Cafe24PROUP', sans-serif;
+     background-color: #F4F8D3; 
+    min-height: 100vh;
+}
+
+/* 편지 전체 틀 */
+.letter-box {
+  border: 3px solid #A6D6D6;      /* 굵은 테두리 */
+  border-radius: 8px;
+  padding: 16px;
+  background: #fefff5;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+/* 받는 사람 */
+.to {
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* 편지 본문 */
+.content {
+  white-space: pre-wrap;
+  line-height: 1.6;
+  font-size: 15px;
+  margin-bottom: 12px;
+}
+
+/* 보내는 사람 */
+.from {
+  text-align: right;
+  font-weight: bold;
+  font-size: 14px;
+}
+.lined-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 12px;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* 한 줄 */
+.line {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 줄 밑 밑줄 */
+.line-underline {
+  border-bottom: 1px solid #A6D6D6;
+  margin-top: 2px;
+}
+
+/* 버튼 */
+button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background: #8E7DBE;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #555;
+}

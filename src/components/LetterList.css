@@ -1,0 +1,29 @@
+/* src/components/LetterList.css */
+.list-container {
+  padding: 16px;
+   background-color: #F4F8D3; 
+    min-height: 100vh;
+}
+.list-container h1 {
+  text-align: center;
+  margin-bottom: 12px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.thumb {
+  position: relative;
+  cursor: pointer;
+}
+.thumb img {
+  width: 80%;
+  display: block;
+  border-radius: 8px;
+   margin: 0 auto; 
+  transition: transform 0.3s ease;
+}
+.thumb:hover img {
+  transform: scale(1.03);
+}

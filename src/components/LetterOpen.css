@@ -1,0 +1,19 @@
+/* src/components/LetterOpen.css */
+
+.open-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #F4F8D3;
+
+  padding-top: 20px;
+  min-height: 100vh;   /* ✅ 화면 전체 높이만큼 채움 */
+}
+
+
+.open-gif {
+  width: 60%;
+  max-width: 280px;
+  height: auto;
+}
