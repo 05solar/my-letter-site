@@ -1,13 +1,13 @@
 .detail-container {
   padding: 16px;
   font-family: 'Cafe24PROUP', sans-serif;
-     background-color: #F4F8D3; 
+     background-color: #fff3fe; 
     min-height: 100vh;
 }
 
 /* 편지 전체 틀 */
 .letter-box {
-  border: 3px solid #A6D6D6;      /* 굵은 테두리 */
+  border: 3px solid #A7F3E6;      /* 굵은 테두리 */
   border-radius: 8px;
   padding: 16px;
   background: #fefff5;
@@ -53,7 +53,7 @@
 
 /* 줄 밑 밑줄 */
 .line-underline {
-  border-bottom: 1px solid #A6D6D6;
+  border-bottom: 1px solid #8ac7bd;
   margin-top: 2px;
 }
 

@@ -1,0 +1,43 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0px;
+  min-height: 100vh;
+  background-color: #fff3fe; 
+
+
+}
+
+/* ✅ 팝업 윈도우 스타일 */
+.popup-window {
+  width: 300px;
+    margin-top: 50px;
+
+  background-color: #fff3fe;
+  border: 1.5px solid #A7F3E6;
+  outline: 1.5px solid #422FBD;;
+  box-sizing: border-box;
+  font-family: 'Cafe24PROUP', sans-serif;
+}
+
+/* ✅ popup-body는 기존 frame-body와 유사하게 */
+.popup-body {
+  background-color: #F5F5F5;
+  padding: 24px 16px;
+  text-align: center;
+  border: 1.5px solid #422FBD;
+  border-top: none;
+  font-size: 15px;
+}
+
+/* ✅ 편지 아이콘 */
+.envelope-icon {
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.envelope-icon img {
+  width: 150px;
+  height: auto;
+}

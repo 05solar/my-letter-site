@@ -20,7 +20,7 @@ export default function LetterOpen() {
     // GIF 재생 후 자동 이동
     const timer = setTimeout(() => {
       navigate(`/letter/${id}`);
-    }, 2000);  // GIF 재생 시간에 맞게 조정 (예: 2초)
+    }, 2000); // GIF 재생 시간
 
     return () => clearTimeout(timer);
   }, [id, navigate]);
@@ -28,7 +28,7 @@ export default function LetterOpen() {
   return (
     <div className="open-container">
       <img
-        src="/envelope-open.gif"   // ← 🔄 GIF 이미지로 교체
+        src={`${process.env.PUBLIC_URL}/envelope-open.gif`}  // ✅ 수정됨
         alt="opening envelope"
         className="open-gif"
       />

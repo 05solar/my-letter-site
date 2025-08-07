@@ -29,7 +29,7 @@ export default function LetterDetail() {
         </div>
 
 
-      <button onClick={() => navigate('/')}>뒤로가기</button>
+      <button onClick={() => navigate('/list')}>뒤로가기</button>
     </div>
   );
 }

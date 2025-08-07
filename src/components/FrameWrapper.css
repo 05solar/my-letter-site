@@ -1,0 +1,116 @@
+/* 전체를 감싸는 파란 외각선 */
+.outer-frame {
+  border: 1.5px solid #422FBD;        /* 파란 외곽선 */
+  background-color: #A7F3E6;        /* 민트 배경 */
+  padding: 3px;
+  margin: 20px auto;
+
+  width: 100%;
+  max-width: 350px;                 /* ✅ 모바일 기준 너비 고정 */
+  box-sizing: border-box;
+}
+
+/* 내부 전체 프레임 */
+.frame-container {
+  width: 100%;                      /* 부모에 딱 맞게 */
+  background-color: white;
+  border: none;
+  font-family: 'Cafe24PROUP', sans-serif;
+  box-sizing: border-box;
+}
+.frame-header {
+  background-color: #E9D2EC;
+  color: #422FBD;
+
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: bold;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border: 1.5px solid #422FBD;
+  border-bottom: 1.5px solid #422FBD; /* 기존 하단선 제거 */
+
+  box-sizing: border-box;
+}
+
+/* ✅ 헤더 하단 민트선 + 파란 외곽선 */
+.mint-divider {
+  height: 4px;
+  background-color: #A7F3E6;     /* 민트색 */
+  border: 1.5px solid #422FBD;
+  border-left: none; 
+  border-right: none;   
+  border-top: none;              /* 위쪽 선 제거로 자연스러운 연결 */
+  width: 100%;
+  box-sizing: border-box;
+}
+/* 헤더 타이틀 */
+.frame-title {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.frame-buttons {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.frame-buttons .btn {
+  width: 16px;
+  height: 16px;
+  background-color: #E9D2EC;
+  border: 1.5px solid #422FBD;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+/* 최소화 버튼 */
+.frame-buttons .minimize::before {
+  content: '';
+  width: 8px;
+  height: 2px;
+  background-color: #422FBD;
+  position: absolute;
+}
+
+/* 최대화 버튼 */
+.frame-buttons .maximize::before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border: 1.5px solid #422FBD;
+  box-sizing: border-box;
+}
+
+/* 닫기 버튼 */
+.frame-buttons .close::before,
+.frame-buttons .close::after {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 1.5px;
+  background-color: #422FBD;
+  transform: rotate(45deg);
+}
+
+.frame-buttons .close::after {
+  transform: rotate(-45deg);
+}
+
+
+/* 본문 내용 */
+.frame-body {
+  background-color: #fffafc;        /* 약간 분홍 느낌 배경 */
+  border: 1.5px solid #422FBD;        /* 파란 테두리 */
+  border-top: none;                 /* 헤더와 맞닿는 위쪽선 제거 */
+
+  width: 100%;
+  box-sizing: border-box;
+}
