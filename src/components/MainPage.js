@@ -21,7 +21,7 @@ export default function MainPage() {
         <div className="popup-window">
           {/* ✅ 프레임 스타일 헤더 */}
           <div className="frame-header">
-            <span className="frame-title">인터넷 편지</span>
+            <span className="frame-title">알림!</span>
             <div className="frame-buttons">
 
               <div className="btn close" onClick={handleClosePopup}></div>
